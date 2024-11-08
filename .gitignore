@@ -1,5 +1,7 @@
 HELP.md
-target/
+target/**
+!target/deploy-test-0.0.1-SNAPSHOT.war
+!*/webapp-runner-9.0.96.0.jar
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
