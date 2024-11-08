@@ -53,11 +53,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>com.heroku</groupId>
-			<artifactId>webapp-runner</artifactId>
-			<version>9.0.96.0</version>
-		</dependency>
+		
 	</dependencies>
 
 	<packaging>war</packaging>
