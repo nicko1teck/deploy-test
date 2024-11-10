@@ -1,13 +1,15 @@
 package dev.nickowen.deploy_test;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
 public class TheController {
 	
-	@GetMapping("/welcome")
+	@RequestMapping("/welcome")
+    @ResponseBody
 	public String welcome() {
 		return "You did it.";
 	}
